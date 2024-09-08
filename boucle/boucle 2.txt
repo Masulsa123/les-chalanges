@@ -1,0 +1,22 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <math.h>
+int main() {
+  int nbr ;
+    printf("entrer le nember");
+    scanf("%d",&nbr);
+int f , i ;    
+    f=1;
+    for(i=1 ;i<nbr ; i++){
+        f=f+(f*i);
+    }
+    printf("%d",f);
+   
+
+     
+
+         
+    
+      
+    return 0;
+}

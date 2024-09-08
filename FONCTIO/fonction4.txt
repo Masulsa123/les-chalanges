@@ -1,0 +1,21 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <math.h>
+int minimon(int A, int B){
+    int min;
+    if(A<B)
+      min=A;
+    else
+      min=B;
+    return (min);
+}
+
+int main() {
+   int A , B ;
+   printf("entre A et B :");
+   scanf("%d %d",&A,&B);
+   int min ;
+   min=minimon(A,B);
+   printf(" le minimon est %d",min);
+    return 0;
+}

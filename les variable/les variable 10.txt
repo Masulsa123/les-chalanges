@@ -1,0 +1,11 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <math.h>
+int main() {
+    float vlm,Pi=3.14,r;
+      printf("entrer le rayon r :");
+      scanf("%f",&r);
+      vlm = 4.0/3.0 * Pi * pow(r,3);
+      printf("le moyan= %f",vlm);
+    return 0;
+}

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1725447078 source:c:\users\youcode\documents\nouveau dossier\project 9\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

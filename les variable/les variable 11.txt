@@ -1,0 +1,13 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <math.h>
+int main() {
+    float lang,larg, surface;
+      printf("entrer le largeur :");
+      scanf("%f",&larg);
+      printf("entrer le langeur :");
+      scanf("%f",&lang);
+      surface= larg*lang;
+      printf("le moyan= %.1f",surface);
+    return 0;
+}

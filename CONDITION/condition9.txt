@@ -1,0 +1,18 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <math.h>
+int main() {
+    char a ;
+    printf(" entrer le caracter :");
+    scanf("%c",&a);
+     if (a>='A'&& a<='Z'|| a>='a'&& a<='z'){
+        if(a>='A'&& a<='Z')
+           printf("le caracter et majuscil ");
+        else 
+           printf("le caracter et minuscil ");
+     }
+      else
+         printf(" its not cararcter");
+      
+    return 0;
+}

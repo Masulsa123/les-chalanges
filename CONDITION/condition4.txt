@@ -1,0 +1,28 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <math.h>
+int main() {
+      int a , b, c, equation;
+      float resulta,resulta1;
+      printf("entrer a   : ");
+      scanf("%d",&a);
+      printf("entrer b   : ");
+      scanf("%d",&b);
+      printf("entrer c   : ");
+      scanf("%d",&c);
+      equation=pow(b,2.0)-4*a*c;
+        if(equation>0){
+         resulta=(-b+sqrt(equation))/2*a;
+         resulta1=(-b-sqrt(equation))/2*a;
+         printf("la somme est %d %d \n",resulta1,resulta);
+        }
+         else if (equation==0){
+         resulta=-b/2*a;
+          printf("la somme est %d",resulta1);
+         
+        }else
+        printf("l'equation ne pas result  ");
+       
+      
+    return 0;
+}

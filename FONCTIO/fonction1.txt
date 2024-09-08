@@ -1,0 +1,18 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <math.h>
+int somme(int A, int B){
+    int S;
+    S=A+B;
+    return (S);
+}
+
+int main() {
+   int A , B ;
+   printf("entre A et B :");
+   scanf("%d %d",&A,&B);
+   int s ;
+   s=somme(A,B);
+   printf(" la somme est %d",s);
+    return 0;
+}

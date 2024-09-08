@@ -1,0 +1,62 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <math.h>
+int main() {
+    int jour,mois,annee ;
+    printf(" entrer le jeur   :");
+    scanf("%d",&jour);
+    printf(" entrer le mois  :");
+    scanf("%d",&mois);
+    printf(" entrer le annee  :");
+    scanf("%d",&annee);
+   if (jour>=1 && jour<=31 || mois>=1 && mois<=12) {
+       
+switch (mois){
+    case 1 : 
+    printf("%d/janvier/%d",jour,annee);
+    break;
+     case 2 : 
+   printf("%d/fevrier/%d",jour,annee);
+    break;
+     case 3 : 
+    printf("%d/mars/%d",jour,annee);
+    break;
+     case 4 : 
+    printf("%d/avril/%d",jour,annee);
+    break;
+     case 5 : 
+    printf("%d/mai/%d",jour,annee);
+    break;
+     case 6 : 
+    printf("%d/jeune/%d",jour,annee);
+    break;
+     case 7 : 
+    printf("%d/jeuillet/%d",jour,annee);
+    break;
+     case 8 : 
+    printf("%d/aout/%d",jour,annee);
+    break;
+     case 9 : 
+    printf("%d/septembre/%d",jour,annee);
+    break;
+     case 10 : 
+    printf("%d/october/%d",jour,annee);
+    break;
+     case 11 : 
+    printf("%d/november/%d",jour,annee);
+    break;
+     case 12 : 
+    printf("%d/december/%d",jour,annee);
+    break;
+    default :
+     printf("invalide");
+     
+}
+    
+}
+     else 
+         printf("la date est icoreect");
+    
+      
+    return 0;
+}

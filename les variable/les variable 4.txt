@@ -1,0 +1,12 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int V,mtS;
+    printf ("entrer la vettesse en km/h : ");
+    scanf("%d",&V);
+    mtS = V * 0.27778;
+    printf ("la transforme en mètres par seconde (m/s) %d",mtS);
+
+    return 0;
+}

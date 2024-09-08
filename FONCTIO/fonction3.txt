@@ -1,0 +1,21 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <math.h>
+int maximon(int A, int B){
+    int max;
+    if(A>B)
+      max=A;
+    else
+      max=B;
+    return (max);
+}
+
+int main() {
+   int A , B ;
+   printf("entre A et B :");
+   scanf("%d %d",&A,&B);
+   int max ;
+   max=maximon(A,B);
+   printf(" le maximon est %d",max);
+    return 0;
+}

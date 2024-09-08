@@ -1,0 +1,11 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <math.h>
+int main() {
+    float a,b,c,moyan;
+      printf("entrer les nembre 1 et 2 et 3 :");
+      scanf("%f %f %f",&a,&b,&c);
+      moyan = pow(a * b * c,(1/3));
+      printf("le moyan= %f",moyan);
+    return 0;
+}
